@@ -1,0 +1,5 @@
+m=int(input())
+e=int(input())
+s=int(input())
+h=int(input())
+print(((m+e+s+h)/400)*100)
