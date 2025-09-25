@@ -1,0 +1,21 @@
+def addition(p,q):
+    return p+q
+def subtraction(p,q):
+    return p-q
+def multiplication(p,q):
+    return p*q
+def division(p,q):
+    return p/q
+p=int(input("Enter a number: "))
+q=int(input("Enter a number: "))
+operator=input("Enter the operation's sign that you would like: 1 = addition, 2 = subtraction, 3 = multiplication, 4 = division: ")
+if operator == "1":
+    print(addition(p,q))
+elif operator == "2":
+    print(subtraction(p,q))
+elif operator == "3":
+    print(multiplication(p,q))
+elif operator == "4":
+    print(division(p,q))
+else:
+    print("Wrong input")
